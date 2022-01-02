@@ -25,8 +25,6 @@ genfscon sysfs   /devices/platform/soc/78b6000.i2c/i2c-2/2-001d/power_supply/par
 # ProcFS
 genfscon proc /sys/vm/swappiness                                      u:object_r:proc_swap:s0
 
-# Slab
-
 # Touchscreen
 genfscon proc /touchpanel	u:object_r:proc_touchpanel:s0
 
