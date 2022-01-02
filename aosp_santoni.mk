@@ -22,16 +22,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-# Inherit some common AwakenOS stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common PixelPlusUI stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Prebuilt apps
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
 
+# Product spec
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := UNOFFICIAL
+PPUI_MAINTAINER := Faisalhossainerfan
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := awaken_santoni
+PRODUCT_NAME := aosp_santoni
 BOARD_VENDOR := Xiaomi
 TARGET_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
