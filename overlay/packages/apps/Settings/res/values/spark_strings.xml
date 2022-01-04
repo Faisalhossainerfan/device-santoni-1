@@ -22,8 +22,8 @@
 
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="awaken_maintainer">Faisalhossainerfan</string>
-
+<resources>
+    <!-- About Maintainer Info -->
+    <string name="spark_maintainer">Faisalhossainerfan</string>
 </resources>
