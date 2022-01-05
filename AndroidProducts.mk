@@ -1,8 +1,8 @@
-# PixelPlus Ui
+# Awaken Project
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_santoni.mk
+    $(LOCAL_DIR)/awaken_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_santoni-userdebug \
-    aosp_santoni-user \
-    aosp_santoni-eng
+    awaken_santoni-userdebug \
+    awaken_santoni-user \
+    awaken_santoni-eng
