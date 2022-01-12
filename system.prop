@@ -59,6 +59,9 @@ persist.loc.nlp_name=com.qualcomm.location
 # Iorapd
 ro.iorapd.enable=false
 
+# Maintainer Info
+ro.cipher.maintainer=Faisalhossainerfan
+
 # Media
 media.aac_51_output_enabled=true
 media.msm8956hw=0
