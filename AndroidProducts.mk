@@ -1,8 +1,8 @@
-# Awaken Project
+# cipherOS
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_santoni.mk
+    $(LOCAL_DIR)/cipher_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_santoni-userdebug \
-    awaken_santoni-user \
-    awaken_santoni-eng
+    cipher_santoni-userdebug \
+    cipher_santoni-user \
+    cipher_santoni-eng
