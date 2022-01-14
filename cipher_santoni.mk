@@ -22,8 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-# Inherit some common AwakenOS stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common cipherOS stuff.
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+CIPHER_GO := true
 
 # Prebuilt apps
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
@@ -31,7 +32,7 @@ $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := awaken_santoni
+PRODUCT_NAME := cipher_santoni
 BOARD_VENDOR := Xiaomi
 TARGET_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
