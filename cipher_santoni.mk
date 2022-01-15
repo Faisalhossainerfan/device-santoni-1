@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 # Inherit some common cipherOS stuff.
 $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+CIPHER_GAPPS := true
+IS_PHONE := true
+TARGET_GAPPS_ARCH := arm64
 
 # Prebuilt apps
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
